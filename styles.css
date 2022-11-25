@@ -18,8 +18,11 @@ flex:auto;
 }
 
 .HL{
-    color:#F9FAF8;
+    border-radius:100%;
     margin-left:250px;
+    height:70px;
+    width:70px;
+    margin-top:10px;
 }
 
 .HL1{
@@ -97,6 +100,11 @@ flex:auto;
     color:#F9FAF8;
 }
 
+.coffee{
+    height:197px;
+    width:372px;
+}
+
 .Second{
     display:flex;
     min-height:400px;
@@ -130,6 +138,13 @@ flex:auto;
 .Box1{
     width:120px;
     height:120px;
+}
+
+.cof{
+    max-width:121px;
+    max-height:120px;
+    min-width:121px;
+    min-height:120px;
     border:3px solid #3882F6;
     border-radius:10%;
 }
@@ -137,6 +152,13 @@ flex:auto;
 .Box2{
     width:120px;
     height:120px;
+}
+
+.iced{
+    max-width:121px;
+    max-height:120px;
+    min-width:121px;
+    min-height:120px;
     border:3px solid #3882F6;
     border-radius:10%;
 }
@@ -144,6 +166,13 @@ flex:auto;
 .Box3{
     width:120px;
     height:120px;
+}
+
+.lat{
+    max-width:121px;
+    max-height:120px;
+    min-width:121px;
+    min-height:120px;
     border:3px solid #3882F6;
     border-radius:10%;
 }
@@ -151,6 +180,13 @@ flex:auto;
 .Box4{
     width:120px;
     height:120px;
+}
+
+.esp{
+    max-width:121px;
+    max-height:120px;
+    min-width:121px;
+    min-height:120px;
     border:3px solid #3882F6;
     border-radius:10%;
 }
@@ -188,8 +224,8 @@ flex:auto;
 
 .Third{
     display:flex;
-    min-height:400px;
-    max-height:400px;
+    min-height:200px;
+    max-height:200px;
     width:100%;
     align-items:center;
     flex:auto;
@@ -206,6 +242,7 @@ flex:auto;
     width:670px;
     display:flex;
     height:250px;
+    margin-top:-28px;
 }
 
 .ThTe{
@@ -226,8 +263,8 @@ flex:auto;
 
 .Fourth{
     display:flex;
-    min-height:400px;
-    max-height:400px;
+    min-height:200px;
+    max-height:200px;
     width:100%;
     align-items:center;
     flex:auto;
@@ -284,4 +321,28 @@ footer{
     height:5%;
     flex:auto;
     color:#F9FAF8;
+    }
+
+    a{
+        color:antiquewhite;
+    }
+    
+    a:visited{
+        text-decoration: none;
+        color:antiquewhite;
+    }
+    
+    a:hover{
+        text-decoration: none;
+        color:antiquewhite;
+    }
+    
+    a:focus{
+        text-decoration: none;
+        color:antiquewhite;
+    }
+    
+    a:hover, a:active{
+        text-decoration: none;
+        color:antiquewhite;
     }

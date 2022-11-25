@@ -1,0 +1,287 @@
+body{
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Content{
+display:flex;
+flex-wrap:wrap;
+}
+
+header{
+display:flex;
+flex-wrap:nowrap;
+justify-content:space-between;
+background-color:#1F2937;
+height:5%;
+flex:auto;
+}
+
+.HL{
+    color:#F9FAF8;
+    margin-left:250px;
+}
+
+.HL1{
+    color:#E5E7EB;
+    margin-right:250px;
+    display:flex;
+    width:400px;
+    justify-content:space-evenly;
+}
+
+.top{
+    display:flex;
+    min-height:400px;
+    max-height:400px;
+    background-color:#1F2937;
+    width:100%;
+    flex:auto;
+    justify-content:space-between;
+}
+
+.LeftSideTop{
+    margin-left:250px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    padding-top:60px;
+}
+
+.RightSideTop{
+    margin-right:250px;
+    padding-top:60px;
+}
+
+.HeroText{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:800;
+    height:min-content;
+    width:350px;
+}
+
+.HeroSubText{
+    display:flex;
+    height:min-content;
+    color:#E5E7EB;
+    width:350px;
+    font-size:18px;
+    margin-top:16px;
+}
+
+.butt{
+    margin-top:22px;
+    background-color:#3882F6;
+    color:#F9FAF8;
+    width:80px;
+    border-radius:18%;
+    border-color:#E5E7EB;
+    margin-left:5px;
+}
+
+.RightSideTop{
+    display:flex;
+    justify-content:center;
+    width:400px;
+    align-items:flex-start;
+}
+
+.imgBox{
+    background-color:grey;
+    height:200px;
+    width:375px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+}
+
+.Second{
+    display:flex;
+    min-height:400px;
+    max-height:400px;
+    width:100%;
+    flex:auto;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.SecondTitle{
+    display:Flex;
+    height:min-content;
+    margin-left:250px;
+    margin-right:250px;
+    font-size:36px;
+    font-weight:800;
+    color:#1F2937;
+}
+
+.SecondImgBox{
+    display:Flex;
+    gap:20px;
+    width:700px;
+    justify-content: space-around;
+    margin-top:16px;
+}
+
+.Box1{
+    width:120px;
+    height:120px;
+    border:3px solid #3882F6;
+    border-radius:10%;
+}
+
+.Box2{
+    width:120px;
+    height:120px;
+    border:3px solid #3882F6;
+    border-radius:10%;
+}
+
+.Box3{
+    width:120px;
+    height:120px;
+    border:3px solid #3882F6;
+    border-radius:10%;
+}
+
+.Box4{
+    width:120px;
+    height:120px;
+    border:3px solid #3882F6;
+    border-radius:10%;
+}
+
+.seconddesc{
+    display:Flex;
+    gap:20px;
+    width:700px;
+    justify-content:space-around;
+    margin-top:12px;
+}
+
+.B1Sub{
+    width:110px;
+    justify-content:center;
+    height:100px;
+}
+
+.B2Sub{
+    width:110px;
+    justify-content:center;
+    height:100px;
+}
+
+.B3Sub{
+    width:110px;
+    justify-content:center;
+    height:100px;
+}
+
+.B4Sub{
+    width:110px;
+    height:100px;
+}
+
+.Third{
+    display:flex;
+    min-height:400px;
+    max-height:400px;
+    width:100%;
+    align-items:center;
+    flex:auto;
+    justify-content:center;
+    background-color:#E5E7EB;
+    flex-wrap:wrap;
+}
+
+.ThirdText{
+    justify-content: center;
+    align-items: center;
+    margin-left:250px;
+    margin-right:250px;
+    width:670px;
+    display:flex;
+    height:250px;
+}
+
+.ThTe{
+    font-size:36px;
+    font-style:italic;
+    font-weight:300;
+}
+
+.ThirdQuote{
+    width:520px;
+    height:min-content;
+    display:flex;
+    margin-left:900px;
+    margin-right:250px;
+    margin-top:-150px;
+    font-weight:700;
+}
+
+.Fourth{
+    display:flex;
+    min-height:400px;
+    max-height:400px;
+    width:100%;
+    align-items:center;
+    flex:auto;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.FourthBox{
+    width:700px;
+    margin-left:250px;
+    margin-right:250px;
+    background-color:#3882F6;
+    height:150px;
+    display:flex;
+    align-items:center;
+}
+
+.BLeft{
+    width:400px;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-left:70px;
+}
+
+.BTitle{
+    font-size:22px;
+    color:#F9FAF8;
+    width:400px;
+}
+
+.BS{
+    color:#F9FAF8;
+}
+
+.BRight{
+    margin-left:50px;
+}
+
+.FourButt{
+    background-color:#3882F6;
+    border-color:#E5E7EB;
+    border-radius:7px;
+    width:100px;
+    color:#F9FAF8;
+}
+
+footer{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-items:center;
+    background-color:#1F2937;
+    height:5%;
+    flex:auto;
+    color:#F9FAF8;
+    }
